@@ -1,0 +1,14 @@
+{
+	"configurations": [
+		{
+			"type": "java",
+			"name": "Spring Boot-CesarplusplusApplication<cesarplusplus>",
+			"request": "launch",
+			"cwd": "${workspaceFolder}",
+			"console": "internalConsole",
+			"mainClass": "com.cesarplusplus.cesarplusplus.CesarplusplusApplication",
+			"projectName": "cesarplusplus",
+			"args": ""
+		}
+	]
+}

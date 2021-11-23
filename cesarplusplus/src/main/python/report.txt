@@ -1,18 +1,71 @@
-1 Expected: 
-Princesa 1: 2 voto(s)
-Princesa 2: 3 voto(s)
-Princesa 3: 2 voto(s)
+Caso 1 X
 
-not
+Expected: 
+	Princesa 1: 3 voto(s)
+	Princesa 2: 3 voto(s)
+	Princesa 3: 2 voto(s)
+Not:
+	Princesa 1: 2 voto(s)
+	Princesa 2: 2 voto(s)
+	Princesa 3: 2 voto(s)
 
-Princesa 1: 3 voto(s)
-Princesa 2: 3 voto(s)
-Princesa 3: 2 voto(s)
+Caso 2 X
 
-2 Correct!!
-3 Correct!!
-4 Correct!!
-5 Correct!!
-6 Correct!!
+Expected: 
+	Princesa 1: 1 voto(s)
+	Princesa 2: 0 voto(s)
+	Princesa 3: 0 voto(s)
+	Princesa 4: 2 voto(s)
+	Princesa 5: 1 voto(s)
+	Princesa 6: 1 voto(s)
+	Princesa 7: 2 voto(s)
+	Princesa 8: 1 voto(s)
+	Princesa 9: 1 voto(s)
+Not:
+	Princesa 1: 1 voto(s)
+	Princesa 2: 0 voto(s)
+	Princesa 3: 0 voto(s)
+	Princesa 4: 0 voto(s)
+	Princesa 5: 0 voto(s)
+	Princesa 6: 0 voto(s)
+	Princesa 7: 0 voto(s)
+	Princesa 8: 0 voto(s)
+	Princesa 9: 0 voto(s)
 
-tests: 0 | 1 | 1 | 1 | 1 | 1
+Caso 3 ✓
+Caso 4 X
+
+Expected: 
+	Princesa 1: 3 voto(s)
+	Princesa 2: 3 voto(s)
+	Princesa 3: 3 voto(s)
+	Princesa 4: 3 voto(s)
+	Princesa 5: 3 voto(s)
+Not:
+	Princesa 1: 1 voto(s)
+	Princesa 2: 0 voto(s)
+	Princesa 3: 5 voto(s)
+	Princesa 4: 0 voto(s)
+	Princesa 5: 5 voto(s)
+
+Caso 5 X
+
+Expected: 
+	Princesa 1: 1 voto(s)
+	Princesa 2: 1 voto(s)
+	Princesa 3: 1 voto(s)
+	Princesa 4: 1 voto(s)
+	Princesa 5: 1 voto(s)
+	Princesa 6: 1 voto(s)
+Not:
+	Princesa 1: 1 voto(s)
+	Princesa 2: 0 voto(s)
+	Princesa 3: 0 voto(s)
+	Princesa 4: 0 voto(s)
+	Princesa 5: 0 voto(s)
+	Princesa 6: 0 voto(s)
+
+Caso 6 ✓
+
+tests: 0 | 0 | 1 | 0 | 0 | 1
+Total: 2/6

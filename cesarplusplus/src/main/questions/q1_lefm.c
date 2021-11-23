@@ -11,7 +11,7 @@ int main(){
 
     for (int i = 0; i < eleitores; i++){
         for (int j = 0; j < princesas; j++){
-            scanf("%d", &votacao[i][j]);
+            scanf("%d", &votacao[j][i]);
         }
         
     }

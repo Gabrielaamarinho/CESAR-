@@ -30,7 +30,7 @@ public class ProfessorController {
 
 	@PutMapping
 	public Professor alterar(@RequestBody Professor professor) {
-		if(professor.getId_professor() > 0){
+		if(professor.getProfessorId() > 0){
 			Professor professorSalvo = professorRepository.save(professor);
 			return professorSalvo;
 		}

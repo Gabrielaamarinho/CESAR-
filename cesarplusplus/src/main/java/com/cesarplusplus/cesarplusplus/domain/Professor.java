@@ -16,7 +16,7 @@ public class Professor {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Short id_professor;
+	private Short professorId;
 	
 	@Column(length = 150, nullable = false)
 	private String nomeCompleto;

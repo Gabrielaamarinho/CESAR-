@@ -28,7 +28,7 @@ public class DisciplinaController {
 
 	@PutMapping
 	public Disciplina alterar(@RequestBody Disciplina disciplina) {
-		if(disciplina.getDisciplina_id() > 0){
+		if(disciplina.getDisciplinaId() > 0){
 			Disciplina disciplinaAlterada = disciplinaRepository.save(disciplina);
 			return disciplinaAlterada;
 		}

@@ -18,7 +18,4 @@ public class Turma {
 	
 	@Column(length = 50, nullable = false)
 	private String nome;
-
-	//private Short professorId; //Fazer Relação entre a tabela Professor e turma ManyToMany
-	//private Short alunoId; //Fazer Relação entre a tabela Aluno e turma ManyToMany
 }

@@ -1,0 +1,44 @@
+#
+# Verify memory leaks
+#
+def leaks(qst, input, report):
+
+    out = os.popen('leaks -atExit -- ./' + qst + " " +  input)
+    line = out.readline()
+
+    if len(line) != 0:
+        while "leaked bytes" not in line:
+            line = out.readline()
+        if " 0 leaks" not in line:
+            report.write(line)
+            report.write(qst + " has memory leak\n")
+            return True
+    return False
+
+#
+# Verify kernel
+#
+def kernel(qst, report):
+
+    cKL = "~/Documents/CESAR.School/Imperative\&Functional/LinuxKernel/checkpatch-master/scripts/checkpatch.pl --no-tree --strict --root=. --file "
+    out = os.popen(cKL + qst)
+    line = out.readline()
+    
+    while "total" not in line:
+        line = out.readline()
+    if " 0 errors, 0 warnings, 0 checks" not in line:
+        report.write(line)
+        report.write(qst + " did't follow Linux kernel code style\n")
+        return True
+    return False
+
+
+
+
+
+    #if (leaks(login, input[0], report)):
+			#    penalization = penalization - 0.2
+			#if (kernel(login + ".c", report)):
+			#    penalization = penalization - 0.2
+
+			#point = penalization * q_point * correct/len(input)

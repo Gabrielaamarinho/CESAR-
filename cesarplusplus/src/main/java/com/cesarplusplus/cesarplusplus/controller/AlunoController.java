@@ -30,7 +30,7 @@ public class AlunoController {
 
 	@PutMapping
 	public Aluno alterar(@RequestBody Aluno aluno) {
-		if(aluno.getId() > 0){
+		if(aluno.getAlunoId() > 0){
 			Aluno alunoAlterado = alunoRepository.save(aluno);
 			return alunoAlterado;
 		}

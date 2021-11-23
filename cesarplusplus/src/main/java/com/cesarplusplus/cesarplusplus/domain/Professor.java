@@ -5,16 +5,18 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 import lombok.Data;
 
 @Data
 @Entity
+@Table(name = "PROFESSOR")
 public class Professor {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Short id;
+	private Short id_professor;
 	
 	@Column(length = 150, nullable = false)
 	private String nomeCompleto;
@@ -27,7 +29,5 @@ public class Professor {
 
 	@Column(length = 50, nullable = false)
 	private String senha;
-
-	//private Short turmaId; //Fazer Relação entre a tabela Professor e turma ManyToMany
 
 }

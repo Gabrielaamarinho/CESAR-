@@ -5,16 +5,18 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 import lombok.Data;
 
 @Data
 @Entity
+@Table(name = "ALUNO")
 public class Aluno {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Short id;
+	private Short alunoId;
 	
 	@Column(length = 200, nullable = false)
 	private String nomeCompleto;
@@ -23,11 +25,9 @@ public class Aluno {
 	private String username;
 
 	@Column(length = 100, nullable = false)
-	private String email;
+	private String emailAluno;
 
 	@Column(length = 50, nullable = false)
 	private String senha;
-
-	//private Short turmaId; //Fazer Relação entre a tabela Aluno e turma ManyToMany
 }
 

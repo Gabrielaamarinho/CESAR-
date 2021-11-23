@@ -1,0 +1,73 @@
+body{
+    background-color: #ffff;
+    text-align: center;
+}
+
+body header h1{
+
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.homebutton{
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline;
+}
+
+main p{
+
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+form {
+
+    margin: 50px 50px 50px 50px;
+}
+
+.label {
+
+    font-family: 'Encode Sans', sans-serif;
+    padding: 10px 25px;
+    margin-left: 700px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.input-padrao{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-top-left-radius: 25px ;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 400px;
+    height: 35px;
+    background-color:rgb(235, 225, 245);
+    border: transparent;
+}
+
+.btn-primary{
+    
+    font-family: 'Encode Sans', sans-serif !important;
+     background-color: orangered !important;
+     display: block !important;
+     margin-left: auto !important;
+     margin-right: auto !important;
+     margin-top: 50px !important;
+     border-top-left-radius: 25px !important;
+     border-top-right-radius: 25px !important;
+     border-bottom-left-radius: 25px !important;
+     border-bottom-right-radius: 25px !important;
+     width: 200px !important;
+     font-weight: bolder !important;
+     font-size: 20px !important;
+}

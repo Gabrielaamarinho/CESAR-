@@ -25,10 +25,10 @@ function postApi (e) {
         body: JSON.stringify({
             nomeCompleto: nomeCompleto.value,
             username: userName.value,
-            email: email.value,
+            emailAluno: email.value,
             senha: senha.value,
         })
     }
     e.preventDefault();
-    return fetch(`http://localhost:8080/aluno`,opcoes);
+    return fetch(`http://localhost:9000/aluno`,opcoes);
 }; 

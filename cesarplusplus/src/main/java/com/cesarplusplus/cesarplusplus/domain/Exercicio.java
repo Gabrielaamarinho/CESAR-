@@ -2,11 +2,8 @@ package com.cesarplusplus.cesarplusplus.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-<<<<<<< HEAD
 //import javax.persistence.EnumType;
 //import javax.persistence.Enumerated;
-=======
->>>>>>> 4625835d5d0e8f8e3c467e70f204b9f2fdb00f08
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;

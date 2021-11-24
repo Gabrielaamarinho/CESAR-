@@ -1,0 +1,42 @@
+body{
+    background-image: url('forma de fundo.png');
+    background-repeat: no-repeat;
+}
+.homeIcon{
+    position: absolute;
+    padding-top: 2em;
+    margin-left: 2em;
+}
+.mainContent{
+    position: absolute;
+    top: 0;
+    margin-left: 36em;
+    padding-top: 5em;
+}
+.whoAreU{
+    font-family: Encode Sans;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    padding-top: 1em;
+}
+#btnSubmit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+#btnStudent{
+    font-weight: bold; 
+    color:purple; 
+    border-color: purple !important;
+    margin-left: 3.4em
+    
+}
+#btnStudent:hover{
+    background-color: purple !important;
+    color: orange !important;
+}
+#btnTeacher:hover{
+    color:purple !important;
+}

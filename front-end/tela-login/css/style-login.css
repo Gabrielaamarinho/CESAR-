@@ -1,0 +1,40 @@
+#homeButton{
+    position: absolute;
+    padding-top: 2em;
+    margin-left: 2em;
+    background-color: white;
+    
+}
+.imgFundo{
+    position:absolute;
+    top:0;
+    right:0;
+
+}
+.personalInformation{
+    position:absolute;
+    right: 0;
+    padding-right: 26em;
+    padding-top: 11em;
+}
+.personalInformation1{
+    position: absolute;
+    right: 0;
+    padding-right: 33em;
+    padding-top: 8em;
+}
+.mainContent{
+    position:absolute;
+    padding-top:9em;
+    margin-left: 18em
+}
+#checkRememberPass{
+    padding-left: 13em;
+    position: absolute;
+}
+.navEsqueceuSenha {
+    position: absolute;
+    font-weight: bold;
+    padding-bottom: 10em;
+    text-decoration: none;
+}

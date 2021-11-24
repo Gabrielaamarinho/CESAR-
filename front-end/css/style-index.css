@@ -1,0 +1,120 @@
+body{
+    font-family: 'Encode Sans', sans-serif;
+    background-image: url('imagem.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-attachment: fixed;
+    background-position-x: right;
+      
+}
+
+header{
+    background: #ffffff;
+    padding: 20px;
+}
+
+.caixa{
+    width: 940px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.caixa h1{
+    margin: 40px 0 0 30px;
+}
+
+nav{
+
+    position: absolute;
+    top: 30px;
+    right: 30px;    
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #932387;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #dd1382;
+ 
+}
+
+footer{
+    background: #000000;
+    text-align: center;
+    font-style: italic;
+}
+
+
+/*css da página principal*/
+
+.principal{
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 800px;
+    margin-left: 80px;;
+}
+.principal p{
+    
+    font-size: 30px;
+    color: #ce86c5;
+}
+
+.principal p1{
+    color: #932387;
+    font-size: 30px;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.btn-primary{
+    
+    font-family: 'Encode Sans', sans-serif !important;
+    color: white !important;
+    background-color: orangered !important;
+    text-decoration: none !important;
+    display: block !important;
+    margin-left: 350px !important;
+    margin-top: 50px !important;
+    border-top-left-radius: 40px !important;
+    border-top-right-radius: 40px !important;
+    border-bottom-left-radius: 40px !important;
+    border-bottom-right-radius: 40px !important;
+    width: 250px !important;
+    font-weight: bolder !important;
+    font-size: 40px !important;
+    height: 80px !important;
+}
+
+.btn-primary:hover{
+    color: rgb(88, 88, 88) !important;
+    cursor: pointer !important;
+}
+
+.remove{
+    color: white;
+    text-decoration: none;
+    cursor: pointer !important; 
+}
+
+.remove:hover{
+    color: rgb(88, 88, 88);
+}
+
+

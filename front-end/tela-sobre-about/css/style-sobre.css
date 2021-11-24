@@ -1,0 +1,35 @@
+body{
+    background-color: #ffff;
+    text-align: center;
+}
+
+body header h1{
+
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.homebutton{
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline;
+}
+
+.sobre{
+
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffff;
+    text-align: left;
+    margin: 80px 100px 60px 100px;
+    background-color: #932387;
+    padding: 20px 20px 20px 20px;
+    border-top-left-radius: 25px ;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+

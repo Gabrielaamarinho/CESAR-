@@ -23,13 +23,12 @@ function postApi (e) {
         method: 'POST',
         headers: {'Content-Type': 'application/json' },
         body: JSON.stringify({
-            acesso: "aluno",
             nomeCompleto: nomeCompleto.value,
             username: userName.value,
-            email: email.value,
+            emailAluno: email.value,
             senha: senha.value,
         })
     }
     e.preventDefault();
-    return fetch(`/cadastro.json`,opcoes);
+    return fetch(`http://localhost:9000/aluno`,opcoes);
 }; 

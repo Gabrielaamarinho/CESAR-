@@ -6,6 +6,7 @@ import com.cesarplusplus.cesarplusplus.domain.Professor;
 import com.cesarplusplus.cesarplusplus.repository.ProfessorRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/professor")
+@CrossOrigin(origins = "http://127.0.0.1:5500")
 public class ProfessorController {
 	
 	@Autowired

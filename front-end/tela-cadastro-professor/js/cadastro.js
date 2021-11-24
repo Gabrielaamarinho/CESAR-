@@ -23,7 +23,6 @@ function postApi (e) {
         method: 'POST',
         headers: {'Content-Type': 'application/json' },
         body: JSON.stringify({
-            acesso: "professor",
             nomeCompleto: nomeCompleto.value,
             username: userName.value,
             email: email.value,
@@ -31,5 +30,5 @@ function postApi (e) {
         })
     }
     e.preventDefault();
-    return fetch(`/cadastro.json`,opcoes);
+    return fetch(`http://localhost:9000/professor`,opcoes);
 }; 

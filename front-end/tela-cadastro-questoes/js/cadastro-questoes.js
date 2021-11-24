@@ -29,16 +29,16 @@ function postApi (e) {
         method: 'POST',
         headers: {'Content-Type': 'application/json' },
         body: JSON.stringify({
-            tituloQuestao: tituloQuestao.value,
-            instrucoesQuestao: instrucoesQuestao.value,
-            entradaQuestao: entradaQuestao.value,
-            saidaQuestao: saidaQuestao.value,
-            dificuldadeQuestao: document.querySelector('input[name="inlineRadioOptions"]:checked').value,
+            titulo: tituloQuestao.value,
+            textoQuestao: instrucoesQuestao.value,
+            entrada: entradaQuestao.value,
+            saida: saidaQuestao.value,
+            nivelQuestao: document.querySelector('input[name="inlineRadioOptions"]:checked').value,
             tempoExecucao: tempoExecucao.value,
             fonteQuestao: fonteQuestao.value,
             turmasQuestao: turmasQuestao.value,
         })
     }
     e.preventDefault();
-    return fetch(`/cadastro.json`,opcoes);
+    return fetch(`http://localhost:9000/exercicio`,opcoes);
 }; 

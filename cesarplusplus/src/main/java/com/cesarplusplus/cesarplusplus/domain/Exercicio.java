@@ -29,13 +29,16 @@ public class Exercicio {
 	@Column(length = 255, nullable = false)
 	private String saida;
 	
-	@Column(length = 50, nullable = false)
-	private String tema;
-	
-	@Enumerated(EnumType.STRING)
-	private NivelQuestaoEnum nivelQuestao;
+	@Column(length = 255, nullable = false)
+	private String nivelQuestao;
 
 	@Column(length = 10, nullable = false)
 	private int tempoExecucao;
+
+	@Column(length = 255, nullable = false)
+	private String fonteQuestao;
+
+	@Column(length = 255, nullable = false)
+	private String turmasQuestao;
 
 }

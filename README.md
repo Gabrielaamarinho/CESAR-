@@ -1,6 +1,6 @@
 # Projeto CESAR++
 TUTORIAL: Como rodar o projeto? <br>
-Os passos a seguir assumem que você tem instalado em sua máquina o
+Os passos a seguir assumem que você tem instalado em sua máquina o ```Spring Boot``` e o ```MySQL```
 
 ## Tutorial do backend
 ### I - Configurar as portas

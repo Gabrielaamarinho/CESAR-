@@ -23,8 +23,11 @@ No mesmo arquivo para configuração da porta do servidor, o ```application.prop
 ### I - Configurar as portas
 Rode o frontend com algum websever em qualquer porta, pois o backend está programado para aceitar requisições de qualquer caminho. Obs.: Em nosso projeto usamos o Live Server, que vem como extensão no VsCode.
 <br>
+
 ## Tutorial Script de Correção
-<br>
+Do diretório do arquivo "main.py", "cesarplusplus\src\main\python", execute o script com os nomes dos arquivos da submissão em .c, input, e output como parâmetro. Ex. "python main.py q1_lefm input output", o resutado da correção sera mostrado no arquivo "report.txt"
+## Checklist de Objetivos
+
 
 - [x] Comunicação entre frontend e backend
 - [x] Persistência dos dados usando MySQL
